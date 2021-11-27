@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class vucutKitleindeksi {
+    public static void main(String[] args) {
+        double kg,boy;
+        Scanner inp = new Scanner(System.in);
+        System.out.print("Lütfen Kilonuzu kg cinsinden Giriniz:");
+        kg = inp.nextDouble();
+        System.out.print("Lütfen Boyunuzu metre cinsinden Giriniz:");
+        boy = inp.nextDouble();
+        double kitle=(kg)/(boy*boy);
+        System.out.print("Vücut Kitle İndeksiniz:"+kitle);
+    }
+}
